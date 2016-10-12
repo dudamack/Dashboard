@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=Dashboard.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Dashboard -TC:\CooCox\CoIDE\configuration\ProgramData\Dashboard/arm-gcc-link.ld -g">
+      <target file="Dashboard.elf" lastModified="156880b0eac">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="156880b07f3"/>
+         <source file="..\obj\main.o" lastModified="156880b08c7"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="156880b08e3"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="156880b09a3"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="156880b0a41"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="156880b0adc"/>
+         <source file="..\obj\stm32f0xx_can.o" lastModified="156880b0bf9"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="156880b0c8a"/>
+      </target>
+   </processor>
+</history>

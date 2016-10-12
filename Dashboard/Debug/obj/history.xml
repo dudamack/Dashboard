@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F072CB -I..\..\..\..\..\Users\Marcel\Documents\Workspaces\Workspace_CoIDE\Dashboard\cmsis_lib\include -I..\..\..\..\..\Users\Marcel\Documents\Workspaces\Workspace_CoIDE\Dashboard\cmsis_boot -I..\..\..\..\..\Users\Marcel\Documents\Workspaces\Workspace_CoIDE\Dashboard\cmsis_lib -I..\..\..\..\..\Users\Marcel\Documents\Workspaces\Workspace_CoIDE\Dashboard\cmsis_core -I..\..\..\..\..\Users\Marcel\Documents\Workspaces\Workspace_CoIDE\Dashboard -I..\..\..\..\..\Users\Marcel\Documents\Workspaces\Workspace_CoIDE">
+      <target file="system_stm32f0xx.o" lastModified="156880b0a41">
+         <source file="..\..\..\system_stm32f0xx.c" lastModified="1566927cd63"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="156880b09a3">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_gpio.c" lastModified="15645f2c168"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="156880b0c8a">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_misc.c" lastModified="1566a01205c"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="156880b07f3">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_rcc.c" lastModified="15645f2c1b6"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="156880b08e3">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="15645f2b2ef"/>
+      </target>
+      <target file="main.o" lastModified="156880b08c7">
+         <source file="..\..\..\main.c" lastModified="156880b0266"/>
+      </target>
+      <target file="stm32f0xx_can.o" lastModified="156880b0bf9">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_can.c" lastModified="1566929e2b6"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="156880b0adc">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_exti.c" lastModified="15669a25db0"/>
+      </target>
+   </processor>
+</history>
